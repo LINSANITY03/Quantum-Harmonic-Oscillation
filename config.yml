@@ -1,3 +1,4 @@
 params:
   hbar: 1.0545718e-34 # Planck's constant (J·s)
-  quantum_state: 3
+  quantum_state: 4
+  omega: 1.0e+15        # Angular frequency (rad/s)
