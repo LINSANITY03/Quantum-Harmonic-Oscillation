@@ -26,35 +26,35 @@ Key components include:
 
 ### WaveFunction
 The wavefunctions of the QHO are expressed as:
-$ \psi_n(X)=\frac{1}{\sqrt{2^nn!}\pi^\frac{1}{4}}H_n(X)e^\frac{-X^2}{2} $
+$\psi_n(X)=\frac{1}{\sqrt{2^nn!}\pi^\frac{1}{4}}H_n(X)e^\frac{-X^2}{2}$
 where:
     H_n(X): Hermite Potential of order (n).
     X: Dimensionless position variable.
 
 ### Energy level
 The energy of the nth quantum state is:
-$ E_n=(n+\frac{1}{2})\hbar\omega $
+$E_n=(n+\frac{1}{2})\hbar\omega$
 where:
-    $ \hbar $: Reduced Planck's constant.
-    $ \omega $: Angular frequency.
+    $\hbar$: Reduced Planck's constant.
+    $\omega$: Angular frequency.
 
 ### Probability Densities
 The probability density is given by:
-$ $ P(x)=\psi^*(x)\psi(x) $
+$P(x)=\psi^*(x)\psi(x)$
 where:
-    $ psi^*(x) $: Wave Function
+    $psi^*(x)$: Wave Function
 
 ## Code Features
 
 ### Implemented Functions
 1. **Wavefunction Generation:**
-    - Computes $ \psi_n(X) $ for given n and X.
+    - Computes $\psi_n(X)$ for given n and X.
 
 2. **Probability Density:**
-    - Calculates $ P(x)=\psi^*(x)\psi(x) $.
+    - Calculates $P(x)=\psi^*(x)\psi(x)$.
 
 3. **Energy levels:**
-    - Computes $ E_n $ for given value of n.
+    - Computes $E_n$ for given value of n.
 
 ### Adjustable Parameters
 - **Dimensionless position (X)**: Position of the particle
