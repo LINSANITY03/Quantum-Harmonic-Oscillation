@@ -36,8 +36,7 @@ where $\hbar$ is Reduced Planck's constant, and $\omega$ is the Angular frequenc
 
 ### Probability Densities
 The probability density is given by:
-$P(x)=\psi^*(x)\psi(x)$
-where $\psi^*(x)$ is the wavefunction.
+$|\psi^2|$ where $\psi$ is the wavefunction.
 
 ## Code Features
 
